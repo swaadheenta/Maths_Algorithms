@@ -26,7 +26,8 @@ void simpleSieve(int limit)
 }
 int main()
 {
-    int n = 17;
+    int n ;
+    cin>>n;
     cout << "Prime numbers smaller than " << n <<" are\n";
     simpleSieve(n);
     return 0;
