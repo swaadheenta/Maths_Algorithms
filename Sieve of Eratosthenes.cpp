@@ -26,7 +26,8 @@ void SieveOfEratosthenes(int n)
 
 int main()
 {
-    int n = 30;
+    int n ;
+    cin>>n;
     cout << "Prime numbers smaller than or equal to " << n <<" are\n";
     SieveOfEratosthenes(n);
     return 0;
